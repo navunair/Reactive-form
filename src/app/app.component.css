@@ -1,0 +1,71 @@
+/* Style for the form container */
+.form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the form header */
+  h2#registration {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Style for form labels */
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style for input fields */
+  input[type="text"],
+  input[type="number"],
+  input[type="radio"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for radio button labels and inputs */
+  input[type="radio"] + span {
+    margin-left: 5px;
+  }
+  
+  /* Style for error messages */
+  div[formGroupName="address"] div,
+  div[formArrayName="hobbies"] div,
+  div[formControlName="gender"] {
+    margin-top: 5px;
+    color: #d9534f; /* Bootstrap's red color for danger */
+  }
+  
+  /* Style for the "Add" button */
+  button {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for the submit button */
+  #btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap's primary color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
